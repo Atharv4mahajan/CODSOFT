@@ -1,0 +1,89 @@
+.logo{
+    font-size: 2em;
+    color: aliceblue;
+    letter-spacing: 2px;
+}
+.menu a
+{
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+
+.register a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 15px;;
+    background:rgb(219, 102, 102);
+}
+.register a:hover{
+    background: rgb(222, 172, 172); 
+}
+.head_txt
+{
+    max-width: 600px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding: 10px 15px;
+    text-align: center;
+    color: antiquewhite;
+    
+}
+.head_txt h1{
+    font-size: 40px;
+}
+.head_txt a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    font-size: 15px;;
+    background:rgb(219, 102, 102);
+}
+.head_txt a:hover{
+    background:rgb(222, 172, 172); 
+}
+.col{
+    display: inline;
+    text-align: center;
+    border-radius: 12px;
+}
+.col h2{
+    color: red;
+    font-size: 35px;
+    letter-spacing: 3px;
+    border-radius: 1px;
+    padding: 30px 30px;
+    background-color:black;
+}
+.col a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 12px;
+    background-color:black;
+    padding: 12px 30px;
+}
+.col a:hover{
+    background-color: rgb(227, 207, 207);
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+}
+.footer a{
+    text-decoration: none;
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+}
+.footer a:hover{
+    background-color: rgb(191, 205, 191);
+}

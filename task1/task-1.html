@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <title>Travel</title>
+        <link rel="stylesheet" href="task-1.css">
+
+        <style type="text/css">
+            *{padding: 0;margin: 0}
+            header{
+                height: 100vh;
+                width: 100%;
+                background:url('img3.jpg');
+                background-size:cover ;
+
+            }
+            nav{
+                width: 100%;
+                height: 100px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            *{
+                box-sizing: border-box;
+             }
+             .col{
+                float: left;
+                width: 33.33%;
+                padding:80px;
+             }
+            .row::after{
+                content: "";
+                clear: both;
+                display: table;
+           
+            }
+            img{
+                width: 100%;
+                height: auto;
+            }
+            
+        </style>
+
+        
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">
+                    Travel.X
+                    
+                </div>
+                
+
+                <div  class="menu">
+                    <a href="#">HOME</a>
+                    <a href="#">OFFERS</a>
+                    <a href="#">CONTACT US</a>
+                    <a href="#">ABOUT US</a>
+                </div>
+                <div class="register">
+                    <a href="#">Register</a>
+
+                 </div>
+            </nav>
+            <section class="head_txt">
+                <h1>TRAVEL</h1>
+                <h3> 
+                    Take only memories,leave only footprints
+                </h3>
+                <br>
+                <a href="#">Book your Trip</a>
+            </section>
+       
+        </header>
+        <div class="row">
+            <div class="col">
+                <h2>Australia</h2>
+                <img src="img.jpg" alt="image1" >
+                <a href="#">Book Now 15% OFF</a>
+            </div>
+            <div class="col">
+                <h2>SPAIN</h2>
+                <img src="img2.jpg" alt="image2" >
+                <a href="#">Book Now 10% OFF</a>
+
+            </div>
+            <div class="col">
+                <h2>INDIA</h2>
+                <img src="img3.jpg" alt="image2" >
+                <a href="#">Book Now 15% OFF</a>
+            </div>
+
+        </div>
+        <div class="footer">
+            <a href="#">Feedback</a>
+            <a href="#">Terms and condition</a>
+            <a href="#">About us</a>
+            <a href="#">Contact Us</a>
+            
+        </div>
+    </body>
+</html>
