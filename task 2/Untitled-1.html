@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="u1.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Web Design Mastery | Responsive Portfolio</title>
+    <style>
+      
+    *{
+      box-sizing: border-box;
+   }
+   .col{
+      float: left;
+      width: 33.33%;
+      padding:80px;
+   }
+  .row::after{
+      content: "";
+      clear: both;
+      display: table;
+ 
+  }
+ 
+  
+</style>
+
+  </head>
+  <body >
+
+    <nav style="position: relative;">
+      <div class="nav__content">
+        <div class="logo"><a href="#">Atharv</a></div>
+        
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+        
+    
+    
+    </nav>
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span>Atharv<br />a</span> Web Developer
+          </h1>
+          <p class="description">
+            Welcome to my web developer portfolio! I'm Atharv, a skilled and
+            creative web developer with a passion for creating beautiful,
+            responsive, and user-friendly websites. 
+          </p>
+          <div class="action__btns">
+    
+            <button class="portfolio">Portfolio</button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="img4.jpg" alt="profile" />
+        </div>
+        <div class="s-icon">
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-whatsapp"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </div>  
+    </section>
+
+
+
+
+    <!--About Me section !-->
+    <section>
+      <br>
+      <h2 align="center" >More About Me</h2>
+    <div class="more-about">
+        
+        <div class="intro">
+        <p>
+           
+          I am an enthusiastic and dedicated individual with a passion for problem-solving and creativity.
+            I thrive in  environments and enjoy taking on new challenges that allow me to think outside the box.
+        </p> 
+        <p>
+            <br>With a strong background in project management and excellent communication skills,
+            I am adept at coordinating teams and ensuring the successful completion of complex tasks.
+            My commitment to continuous learning and adaptability makes me a valuable asset in dynamic work settings.
+        
+        </p>
+        </div>
+        <div class="image">
+            <img src="img4.jpg" alt="abc" style="height: 50%;">
+        </div>
+    </div>
+    </section>
+       
+
+<!--skills section-->
+<section class="skills" id="skills">
+  <h2 class="skill-header">My Top Skills</h2>
+
+  <div class="skills-wrapper">
+    <div class="first-set animate__animated animate__pulse">
+      <img src="i1.jpg"  alt=""  loading="lazy"  class="icon icon-card"/>
+      <img  src="i2.jpg" alt="" loading="lazy"   class="icon icon-card"/>
+      <img  src="i3.jpg" alt="" loading="lazy" class="icon icon-card" />
+    </div>
+
+    <div class="second-set animate__animated animate__pulse">
+      <img src="i6.jpg" alt="" loading="lazy" class="icon icon-card" />
+      <img src="i4.jpg" alt="" loading="lazy" class="icon icon-card" />
+      <img src="i5.jpg" alt="" loading="lazy" class="icon icon-card"/>
+    </div>
+  </div>
+</section>
+
+
+
+
+ <!--Projects section!-->
+    <header>
+      <br>
+      <br>
+      <h1>Projects</h1>
+    </header>
+    <div class="row">
+      <div class="col">
+          <h3>Expense Tracker</h3>
+          <img src="pro2.jpg" alt="image1"  style="width: 100%;" height="100%">
+          <div class="action__btns">
+            <br>
+            <br>
+            <button class="portfolio">Check Now</button>
+          </div>
+      </div>
+      <div class="col">
+          <h3>Hotel Booking</h3>
+          <img src="h1.jpg" alt="image2" style="width: 100%;" height="50%">
+          <div class="action__btns">
+    
+            <button class="portfolio">Check Now</button>
+          </div>
+
+      </div>
+      <div class="col">
+          <h3>Landing Page</h3>
+          <img src="pro3.jpg" alt="image2" style="width: 100%;" height="50%" >
+          <div class="action__btns">
+    
+            <button class="portfolio">Check Now</button>
+          </div>
+      </div>
+
+  </div>
+
+
+
+ <!--contact  section-->
+  <h3 align="center">Contact Form</h3>
+
+<div class="container"  >
+  <form action="Untitled-1.html">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." class="input-field">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." class="input-field">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" class="input-field"></textarea>
+
+    <div class="action__btns">
+    
+      <button class="portfolio">Submit</button>
+      <button class="portfolio">Download CV</button>
+
+    </div>
+  </form>
+</div>
+
+    
+<!--footer-->
+
+<div class="footer">
+  <br>
+  <br>
+  <div class="container-footer">
+    <p>Copyright <i class="fa-regular fa copyright"></i>@Atharv Mahajan All rights reserved</p>
+  </div>
+</div>
+
+
+  </body>
+</html>
